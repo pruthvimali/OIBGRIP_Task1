@@ -1,0 +1,33 @@
+body{
+  background-color: black;
+  text-align: center;
+}
+.name{
+   font-family:"Josefin Sans";fantasy;
+   font-size:100px;
+   color:white
+}
+
+input{
+  color: red;
+  font-size:30px;
+  cursor:pointer;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 20px;
+  margin-left:0px;
+}
+.first,.sec,.third,.fourth,.fifth{
+  margin-bottom: 20px;
+}
+input[type="text"]{
+  width:250px;
+  text-align:center;
+}
+input[type="button"]:hover{
+  background-color: #A0A0A0;
+}
+.a{
+  color: white;
+}

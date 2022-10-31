@@ -1,0 +1,45 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+    <h1 class="name">Calculator</h1>
+
+    <div class="first">
+        <input type="text" value=""  id="result"/ placeholder="result">
+        <input class="a" type="button" value="C" onclick="clearScreen()" />
+    </div>
+    <div class="sec">
+        <input type="button" value="1" onclick="ram(1)" />
+        <input type="button" value="2" onclick="ram(2)"/>
+        <input type="button" value="3" onclick="ram(3)"/>
+        <input type="button" value="+" onclick="ram('+')"/>
+    </div>
+    <div class="third">
+        <input type="button" value="4" onclick="ram(4)"/>
+        <input type="button" value="5" onclick="ram(5)"/>
+        <input type="button" value="6" onclick="ram(6)"/>
+        <input type="button" value="-" onclick="ram('-')"/>
+    </div>
+    <div class="fourth">
+        <input type="button" value="7" onclick="ram(7)"/>
+        <input type="button" value="8" onclick="ram(8)"/>
+        <input type="button" value="9" onclick="ram(9)"/>
+        <input type="button" value="x" onclick="ram('*')"/>
+    </div>
+    <div class="fifth">
+        <input type="button" value="/" onclick="ram('/')"/>
+        <input type="button" value="0" onclick="ram(0)"/>
+        <input type="button" value="." onclick="ram('.')"/>
+        <input type="button" value="=" onclick="result.value= eval(result.value)"/>
+    </div>
+
+    <script type="text/javascript" src="index.js"></script>
+
+  </body>
+</html>
